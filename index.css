@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  -webkit-touch-callout: none;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+}
+#go {
+  font-size: 48px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  padding: 10px;
+}
+#result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 200px;
+  height: 300px;
+  border: 1px solid #aaa;
+}
